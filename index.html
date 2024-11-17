@@ -4,12 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="prompt.js"></script>
+    <title>Converter</title>
+    <!-- <script src="prompt.js"></script> -->
 </head>
 
 <body>
+    <!-- <h2 id="message"></h2>
+    <script>
+        document.getElementById("message")
+        message.innerHTML = "Wellcome to our website 2024"
+    </script> -->
 
+    <div class="inputdiv">
+        <input type="text" name="" id="input" placeholder="length and cm">
+
+    </div>
+    <div>
+        <button type "submit" onclick="convert()">Convert to inches</button>
+    </div>
+    <div id="result">
+
+    </div>
+
+    <script>
+        function convert() {
+
+
+            const cmValue = Number(document.getElementById("input").value)
+            const incheValue = cmValue / 2.54
+            const resutl = document.getElementById("result")
+            result.innerHTML = incheValue.toFixed(2)
+        }
+    </script>
 </body>
 
 </html>

@@ -1,14 +1,7 @@
-// how to get user input
+// //Get your input
 
-//  let name = prompt("whats your name: ")
-// console.log("hi", name)
+// let user = prompt("Enter your name: ")
+// console.log("My Name is", user)
 
-// let tickets =prompt ('how many tickets do you want? ')
-// console.log("you shoud pay", Number(tickets) * 20)
-
-// let a = prompt('enter a number')
-// console.log(Number(a) + 10)
-
-
-let sets = prompt("How many sets do you need")
-console.log(Number(sets) * 100)
+let sets = prompt("How many sets do you need: ")
+console.log("you have to pay: ", Number(sets) * 650, "Rs")
